@@ -1,0 +1,138 @@
+body {
+    padding-top: 75px;
+}
+
+.main .home {
+    width: 100%;
+    height: 620px;
+    background-image: url(../img/fundo.jpeg);
+    background-size: cover;
+}
+
+.home .homeBox {
+    width: 700px;
+    height: 140px;
+    padding: 10% 0 0 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+}
+
+.homeBox .nome {
+    font-size: 58px;
+    transition: 0.2s linear;
+}
+
+.homeBox .nome:hover {
+    letter-spacing: 0.6px;
+}
+
+.main .titulo {
+    font-size: 28px;
+    transition: 0.2s linear;
+}
+
+.homeBox .titulo:hover {
+    letter-spacing: 0.4px;
+}
+
+.homeBox .icons {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icons a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+.main .cv {
+    height: 562px;
+    padding: 8% 15% 4% 10%;
+    background-color: white;
+}
+
+.cv .cvBox {
+    height: 300px;
+    text-align: justify;
+}
+
+.cvBox h1 {
+    font-size: 34px;
+}
+
+.cvBox p {
+    font-size: 20px;
+}
+
+.cv .download {
+    width: 200px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.main .xp {
+    height: 620px;
+    padding: 8% 15% 4% 10%;
+    background-color: lightgray;
+}
+
+.xpBox h1 {
+    font-size: 34px;
+}
+
+.main .prof {
+    height: 620px;
+    padding: 8% 15% 4% 10%;
+    background-color: white;
+}
+    
+.profBox h1 {
+    font-size: 34px;
+}
+
+.main .port {
+    height: 696px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.port .portBox {
+    width: 80%;
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portBox div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 1px 1px gray;
+    background-color: snow;
+    transition: 0.3s linear;
+}
+
+.portBox div:hover {
+    width: 230px;
+    height: 230px;
+}
