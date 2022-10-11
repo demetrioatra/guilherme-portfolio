@@ -1,6 +1,5 @@
-.header {
+header {
     width: 100%;
-    height: 75px;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -9,19 +8,27 @@
     background-color: snow;
 }
 
-.header .headerBox {
+.maxHeader {
+    height: 75px;
+}
+
+.minHeader {
+    height: 70px;
+}
+
+header .headerBox {
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header img {
+.headerBox img {
     width: 55px;
     height: 55px;
 }
 
-header nav {
+.headerBox nav {
     width: 600px;
     display: flex;
     justify-content: space-between;
