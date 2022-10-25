@@ -1,21 +1,17 @@
-body {
-    padding-top: 75px;
-}
-
 .main .home {
     width: 100%;
     height: 620px;
-    background-image: url(../img/fundo.jpeg);
     background-size: cover;
+    background-image: url(../img/fundo.jpeg);
 }
 
 .home .homeBox {
-    width: 700px;
-    height: 140px;
-    padding: 10% 0 0 10%;
+    width: 780px;
+    height: 290px;
     display: flex;
-    justify-content: space-between;
+    padding: 10% 0 0 10%;
     flex-direction: column;
+    justify-content: space-between;
     color: white;
 }
 
@@ -45,9 +41,9 @@ body {
 }
 
 .icons a {
-    text-decoration: none;
     display: flex;
     align-items: center;
+    text-decoration: none;
     color: white;
 }
 
@@ -124,15 +120,16 @@ body {
     width: 200px;
     height: 200px;
     display: flex;
-    justify-content: center;
     align-items: center;
     border-radius: 50px;
+    transition: 0.3s linear;
+    justify-content: center;
     box-shadow: 1px 1px gray;
     background-color: snow;
-    transition: 0.3s linear;
 }
 
 .portBox div:hover {
     width: 230px;
     height: 230px;
+    font-size: 24px;
 }

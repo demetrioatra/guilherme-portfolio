@@ -1,55 +1,38 @@
 .header {
-    width: 100%;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    position: fixed;
     top: 0;
+    width: 100%;
+    display: flex;
+    padding: 0 10%;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
     border-bottom: 1px solid gray;
     background-color: snow;
 }
 
-.header .headerBox {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .header img {
     width: 55px;
-    height: 55px;
 }
 
 header nav {
-    width: 600px;
+    gap: 1em;
     display: flex;
-    justify-content: space-between;
 }
 
 nav a {
-    text-decoration: none;
+    padding: 10px;
     position: relative;
+    border-radius: 10px;
+    transition: linear 0.3s;
     color: black;
 }
 
-nav a::after {
-    content: " ";
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-    background-color: black;
+nav a:hover {
+    background-color: rgba(33, 159, 255, 0.416);
 }
 
-nav a:hover::after {
-    content: " ";
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    background-color: black;
+.responsive-button {
+    border: none;
+    display: none;
+    background-color: transparent;
 }

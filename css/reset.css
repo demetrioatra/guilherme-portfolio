@@ -1,5 +1,12 @@
+:root {
+    --color-dark: #272727;
+    --color-dark5: #343434;
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     font-family: sans-serif;
 }

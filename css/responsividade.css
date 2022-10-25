@@ -1,0 +1,52 @@
+@media screen and (max-width: 400px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .responsive-button {
+        display: block;
+    }
+    
+    header nav {
+        gap: 0;
+        top: 0;
+        right: 0;
+        width: 33%;
+        padding: 2% 0;
+        position: absolute;
+        text-align: center;
+        flex-direction: column;
+        background-color: rgb(135, 206, 250);
+    }
+
+    nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        border-radius: 0;
+    }
+
+    .home .homeBox {
+        height: 248px;
+        padding: 18% 0 0 10%;
+    }
+
+    .homeBox .nome {
+        font-size: 46px;
+    }
+
+    .homeBox .titulo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main .home {
+        background-image: url(../img/fundo-pequeno.jpeg);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+}
