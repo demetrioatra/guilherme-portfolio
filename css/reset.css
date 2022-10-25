@@ -9,4 +9,5 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
+    transition: all .4s linear;
 }
