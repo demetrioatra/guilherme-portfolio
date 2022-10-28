@@ -15,16 +15,18 @@
         padding: 2% 0;
         position: absolute;
         text-align: center;
+        margin-right: -100vw;
         flex-direction: column;
+        animation-duration: 1s;
         background-color: rgb(135, 206, 250);
     }
 
     nav a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 40px;
+        display: flex;
         border-radius: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .home .homeBox {
@@ -39,6 +41,11 @@
     .homeBox .titulo {
         font-size: 20px;
     }
+
+    @keyframes showMenu {
+        from {margin-right: -100vw;}
+        to {margin-right: -10vw;}
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -48,5 +55,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-
+    header nav {
+        margin-right: 0vw;
+    }
 }

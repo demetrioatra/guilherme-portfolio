@@ -11,3 +11,7 @@
     font-family: sans-serif;
     transition: all .4s linear;
 }
+
+body {
+    margin-top: 60px;
+}

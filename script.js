@@ -1,13 +1,14 @@
-const header = document.querySelector("header");
+var header = document.getElementById("header")
+var nav = document.getElementById("nav")
 
-window.addEventListener("scroll", headerAnimated);
+var showMenu = false
 
-function headerAnimated() {
-    if (window.pageYOffset > 0 && header.classList.contains('maxHeader')) {
-        header.classList.remove('maxHeader');
-        header.classList.add('minHeader');
-    } else if (window.pageYOffset == 0 && header.classList.contains('minHeader')) {
-        header.classList.remove('minHeader');
-        header.classList.add('maxHeader');
-    }
+function toggleSidebar() {
+    showMenu = !showMenu
+
+    if (showMenu) {
+        nav.style.marginRight = '0'
+        nav.style.animationName = 'showMenu'
+    } else
+        nav.style.marginRight = '-100vw'
 }

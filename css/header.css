@@ -34,5 +34,6 @@ nav a:hover {
 .responsive-button {
     border: none;
     display: none;
+    cursor: pointer;
     background-color: transparent;
 }
